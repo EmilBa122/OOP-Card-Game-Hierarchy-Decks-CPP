@@ -1,0 +1,26 @@
+class BlackCard;
+class Bushido;
+class Card;
+class GreenCard;
+class Katana;
+class Bow;
+class Wakizashi;
+class Spear;
+class Ninjato;
+class Footsoldier;
+class Archer;
+class Sieger;
+
+class Cavalry;
+class Atakebune;
+class Bushido;
+class Defender;
+class Attacker;
+class Shogun;
+class Chancellor;
+class Champion;
+class GiftsandFavour;
+class Plain;
+class Farmland;
+class Mine;
+class GoldMine;

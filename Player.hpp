@@ -1,0 +1,32 @@
+#ifndef PLAYER_HPP
+#define PLAYER_HPP
+
+#include <iostream>
+#include <string>
+#include <cstdlib>
+#include <list>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+#include <functional>
+#include <ctime>
+#include <cstdlib>
+
+#include "Cards.cpp"
+#include "DeckBuilder.hpp"
+
+
+class Player{//CLASS THAT REFERS TO THE PLAYER OF THE GAME
+	private:
+		DeckBuilder Cards;//THE CARDS THAT THE PLAYER HAS 
+		list_green hand;//INDICATES A LIST THAT CONTAINS GREEN CARDS THAT CORRESPOND TO THE CARDS THAT THE PLAYER HAS IN HIS HAND  
+		list_black holding;//INDICATES A LIST THAT CONTAINS BLACK CARDS THAT CORRESPOND TO THE HOLDINGS THAT THE PLAYER HAS IN THE GAME 
+		list_black army;//INDICATES A LIST THAT CONTAINS BLACK CARDS THAT CORRESPOND TO THE ACTIVE PERSONALITIES THAT THE PLAYER USES FOR THE WAR 
+		Stronghold sth;//CLASS THAT GIVES TO EACH PLAYER HIS INITIAL HONOUR,THE INITIAL AMOUNT OF MONEY THAT HE WILL HAVE AS WELL AS THE DEFENCE THAT EACH PROVINCE OF HIS HAS 
+	public:
+		Player();//CONSTRUCTOR
+		start st;//CLASS THAT CONTAINS THE MONEY,THE HONOUR AND THE FOUR PROVINCES THAT EACH PLAYER HAS
+		~Player();//DESTRUCTOR
+};
+
+#endif
